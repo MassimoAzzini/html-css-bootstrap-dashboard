@@ -1,8 +1,8 @@
 :root {
-  --bg-light-grey: #f8f9fa;
-  --bg-dark-blue: #051e34;
-  --bg-blue: #11283e;
-  --bg-light-blue: #1b72e8;
+  --bg_light-grey: #f8f9fa;
+  --bg_dark-blue: #051e34;
+  --bg_blue: #11283e;
+  --bg_light-blue: #1b72e8;
 }
 
 /* DEBUG */
@@ -16,8 +16,37 @@ main .content .top-bar {
 
 header {
   height: 70px;
-  background-color: var(--bg-light-grey);
+  background-color: var(--bg_light-grey);
 }
+
+/* navbar */
+header nav.nav-cst {
+  background-color: white !important;
+}
+
+header nav.nav-cst img.logo-small {
+  width: 40px;
+}
+
+
+header nav.nav-cst ul li i {
+  color: #5b5858;
+}
+
+
+header nav.nav-cst ul li.dropdown i {
+  color:#ff8f00;
+}
+
+.input-search-cst,
+.glass-search {
+  background-color: #e5e5e5;
+}
+
+form .glass-search {
+  left: 4px;
+}
+/* end navbar */
 
 main {
   padding-top: 70px;
@@ -28,20 +57,20 @@ main section.sidebar {
 }
   
 main section.sidebar .top-sidebar{
-  background-color: var(--bg-dark-blue);
+  background-color: var(--bg_dark-blue);
 }
 
 main section.sidebar .bottom-sidebar{
-  background-color: var(--bg-blue);
+  background-color: var(--bg_blue);
 }
 
 main section.content {
   width: calc(100% - 68px);
-  background-color: var(--bg-light-grey);
+  background-color: var(--bg_light-grey);
 }
 
 main section.content .top-bar {
-  background-color: var(--bg-light-blue);
+  background-color: var(--bg_light-blue);
 }
 
 
