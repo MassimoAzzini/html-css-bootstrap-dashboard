@@ -1,0 +1,60 @@
+:root {
+  --bg-light-grey: #f8f9fa;
+  --bg-dark-blue: #051e34;
+  --bg-blue: #11283e;
+  --bg-light-blue: #1b72e8;
+}
+
+/* DEBUG */
+main .content .top-bar {
+  height: 100px;
+}
+
+
+
+
+
+header {
+  height: 70px;
+  background-color: var(--bg-light-grey);
+}
+
+main {
+  padding-top: 70px;
+}
+
+main section.sidebar {
+  width: 68px;
+}
+  
+main section.sidebar .top-sidebar{
+  background-color: var(--bg-dark-blue);
+}
+
+main section.sidebar .bottom-sidebar{
+  background-color: var(--bg-blue);
+}
+
+main section.content {
+  width: calc(100% - 68px);
+  background-color: var(--bg-light-grey);
+}
+
+main section.content .top-bar {
+  background-color: var(--bg-light-blue);
+}
+
+
+/* MEDIA QUERY */
+@media screen (min-width: 768px) {
+  main section.aside {
+    width: 150px;
+  }
+
+  main section.content {
+    width: calc(100% - 150px);
+  }
+  
+  
+  
+}
