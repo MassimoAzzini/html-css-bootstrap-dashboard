@@ -73,13 +73,14 @@
     <section class="content h-100 overflow-auto">
 
       <!-- top-bar-content -->
-      <div class="top-bar w-100 bg-primary pt-3 pe-5 text-white">
+      <div class="top-bar w-100 bg-primary py-3 pe-5 text-white">
         <div class="container-fluid">
-          <div class="row flex-column flex-md-row">
+          <div class="row flex-column flex-md-row justify-content-between">
+
             <!-- nuovo studente -->
-            <div class="col nuovo-studente order-md-3 text-md-end">
-              <span>Nuovo Studente</span>
-              <button class="btn btn-outline-light ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+            <div class="col col-md-4 col-lg-3 nuovo-studente order-md-3 py-3">
+              <span class="fs_cst_9">Nuovo Studente</span>
+              <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                 <i class="fa-solid fa-plus"></i>
               </button>
               
@@ -98,7 +99,7 @@
             <!-- end nuovo studente -->
 
             <!-- Boolean -->
-            <div class="boolean col">
+            <div class="col col-md-4 col-lg-5 boolean py-3">
               <div>
                 <span class="fs-3">Boolean</span>
                 <a href="#">
@@ -111,27 +112,24 @@
                 </a>
                 <i class="fa-solid fa-angles-right fs_cst_6"></i>
                 <a href="#">
-                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Boolean mobile app</span>
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-none d-lg-inline-block">Boolean mobile app</span>
                 </a>
                 <a href="#">
-                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Boolean web app</span>
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-none d-lg-inline-block">Boolean web app</span>
                 </a>
                 <a href="#">
-                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Boolean blog app</span>
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-none d-lg-inline-block">Boolean blog app</span>
                 </a>
-
-
+                <a href="#">
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                </a>
               </div>
-              <div>
-
-              </div>
-
             </div>
             <!-- end Boolean -->
 
             <!-- studenti online -->
-            <div class="col">
-              <div>Studenti online negli ultimi 30 minuti</div>
+            <div class="col col-md-4 col-lg-4 studenti-on py-3">
+              <div class="fs_cst_8">Studenti online negli ultimi 30 minuti</div>
               <div class="fs-3">125</div>
             </div>
             <!-- end studenti online -->

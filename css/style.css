@@ -6,14 +6,6 @@
 }
 
 /* DEBUG */
-main .content .top-bar {
-  height: 100px;
-}
-
-
-
-
-
 header {
   height: 70px;
   background-color: var(--bg_light-grey);
@@ -99,6 +91,10 @@ main th.th-cst {
 
 .fs_cst_8 {
   font-size: 0.8rem;
+}
+
+.fs_cst_9 {
+  font-size: 0.9rem;
 }
 
 .fs_cst_6 {
