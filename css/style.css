@@ -124,6 +124,9 @@ main th.th-cst {
     width: calc(100% - 150px);
   }
   
-  
+  .nuovo-studente div.offcanvas {
+    max-width: 700px;
+  }
   
 }
+
