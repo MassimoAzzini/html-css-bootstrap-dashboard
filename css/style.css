@@ -51,8 +51,7 @@ header nav.nav-cst ul li.dropdown ul.dropdown-menu {
   right: 0;
 }
 
-.input-search-cst,
-.glass-search {
+.input-search-cst {
   background-color: #e5e5e5;
 }
 
@@ -74,15 +73,18 @@ main section.content {
   width: calc(100% - 68px);
   background-color: var(--bg_light-grey);
 }
-
-main section.content .top-bar {
-  background-color: var(--bg_light-blue);
-}
 /* end sidebar */
-main table {
-  font-size: 0.8rem;
+
+/* top-bar-content */
+.top-bar div span.badge_bg_cst {
+  background-color: #165bba;
 }
 
+/* end top-bar-content */
+
+
+
+/* table */
 main table img {
   width: 1rem;
 }
@@ -98,6 +100,12 @@ main th.th-cst {
 .fs_cst_8 {
   font-size: 0.8rem;
 }
+
+.fs_cst_6 {
+  font-size: 0.6rem;
+}
+/* end table */
+
 
 
 

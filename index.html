@@ -23,14 +23,14 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary nav-cst w-100 h-75 justify-content-between d-flex">
         <div class="container-fluid">
           <a class="navbar-brand d-flex" href="#">
-            <div class="h-100 " >
+            <div class="h-100" >
               <img class="d-md-none logo-small" src="img/mobile-logo.png" alt="">
               <img class="d-none d-md-block" src="img/logo.svg" alt="">
             </div>
           </a>
           <form class="d-flex align-items-center w-75 position-relative" role="search">
             <i class="fa-solid fa-magnifying-glass glass-search position-absolute"></i>
-            <input class="form-control me-2 input-search-cst" type="search" placeholder="   Prova a cercare: Lezioni di Laravel" aria-label="Search">
+            <input class="form-control me-2 input-search-cst ps-4" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
           </form>
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item d-none d-lg-block">
@@ -71,10 +71,77 @@
     </section>
 
     <section class="content h-100 overflow-auto">
-      <div class="top-bar w-100">
+
+      <!-- top-bar-content -->
+      <div class="top-bar w-100 bg-primary pt-3 pe-5 text-white">
+        <div class="container-fluid">
+          <div class="row flex-column flex-md-row">
+            <!-- nuovo studente -->
+            <div class="col nuovo-studente order-md-3 text-md-end">
+              <span>Nuovo Studente</span>
+              <button class="btn btn-outline-light ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              
+              <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    I will not close if you click outside of me.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end nuovo studente -->
+
+            <!-- Boolean -->
+            <div class="boolean col">
+              <div>
+                <span class="fs-3">Boolean</span>
+                <a href="#">
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Piano blaze</span>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">3 app</span>
+                </a>
+                <i class="fa-solid fa-angles-right fs_cst_6"></i>
+                <a href="#">
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Boolean mobile app</span>
+                </a>
+                <a href="#">
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Boolean web app</span>
+                </a>
+                <a href="#">
+                  <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Boolean blog app</span>
+                </a>
 
 
+              </div>
+              <div>
+
+              </div>
+
+            </div>
+            <!-- end Boolean -->
+
+            <!-- studenti online -->
+            <div class="col">
+              <div>Studenti online negli ultimi 30 minuti</div>
+              <div class="fs-3">125</div>
+            </div>
+            <!-- end studenti online -->
+
+          </div>
+        </div>
       </div>
+      <!-- end top-bar-content -->
+
+      <!-- cards -->
       <div class="container-fluid">
         <div class="row">
   
@@ -83,7 +150,7 @@
             <div class="card my-3">
               <h5 class="card-header">Prossime classi</h5>
               <div class="card-body">
-                <table class="table table-hover">
+                <table class="table table-hover fs_cst_8">
                   <tbody>
                     <tr>
                       <th class="fw-normal">Nome</th>
@@ -249,6 +316,7 @@
             </div>
             <!-- end card Todo -->
 
+            <!-- card stats -->
             <div class="card w-100 fs_cst_8 my-3" style="width: 18rem;">
               <img src="img/stats.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -264,12 +332,13 @@
                 <a href="#" class="card-link">Visualizza report approfondito</a>
               </div>
             </div>
+            <!-- end card stats -->
 
           </div>
   
         </div>
       </div>
-
+      <!-- end cards -->
     </section>
 
   </main>
