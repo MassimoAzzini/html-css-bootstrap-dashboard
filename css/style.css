@@ -70,7 +70,6 @@ main section.sidebar {
   background-image: url(../img/sidebar-bg.png);
 }
 
-
 main section.content {
   width: calc(100% - 68px);
   background-color: var(--bg_light-grey);
@@ -80,6 +79,21 @@ main section.content .top-bar {
   background-color: var(--bg_light-blue);
 }
 /* end sidebar */
+main table {
+  font-size: 0.8rem;
+}
+
+main table img {
+  width: 1rem;
+}
+
+main table button i {
+  font-size: 0.8rem;
+}
+
+main td.td-cst {
+  width: 100px;
+}
 
 
 
