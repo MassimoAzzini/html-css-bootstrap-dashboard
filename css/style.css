@@ -47,6 +47,10 @@ header nav.nav-cst ul li.dropdown i {
   color:#ff8f00;
 }
 
+header nav.nav-cst ul li.dropdown ul.dropdown-menu {
+  right: 0;
+}
+
 .input-search-cst,
 .glass-search {
   background-color: #e5e5e5;
