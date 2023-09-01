@@ -91,8 +91,12 @@ main table button i {
   font-size: 0.8rem;
 }
 
-main td.td-cst {
+main th.th-cst {
   width: 100px;
+}
+
+.fs_cst_8 {
+  font-size: 0.8rem;
 }
 
 
