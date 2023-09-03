@@ -55,21 +55,27 @@ form .glass-search {
 /* end HEADER */
 
 /* MAIN */
+
+main section.content {
+  width: calc(100% - 68px);
+  background-color: var(--bg_light-grey);
+}
+
 /* sidebar */
 main section.sidebar {
   background-color: var(--bg_dark-blue);
   background-image: url(../img/sidebar-bg.png);
 }
 
-main section.content {
-  width: calc(100% - 68px);
-  background-color: var(--bg_light-grey);
-}
 /* end sidebar */
 
 /* top-bar-content */
 .top-bar div span.badge_bg_cst {
   background-color: #165bba;
+}
+
+.top-bar div span.badge_bg_cst:hover {
+  opacity: 0.8;
 }
 
 

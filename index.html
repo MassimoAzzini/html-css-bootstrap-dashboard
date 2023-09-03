@@ -61,32 +61,37 @@
 
   <main class="w-100 h-100 d-flex">
     <!-- SIDEBAR -->
-    <section class="sidebar py-4 ps-3 h-100">
-      <div class="top-sidebar w-100">
-        <ul class="list-unstyled ">
-          <li class="pb-3">
-            <a class="text-decoration-none" href="#">
-              <i class="fa-solid fa-house"></i>
-              <span class="ps-2">Home</span>
-            </a>
-          </li>
-          <li class="pb-3">
-            <a class="text-decoration-none" href="#">
-              <i class="fa-solid fa-chart-simple"></i>
-              <span class="ps-2">Stats</span>
-            </a>
-          </li>
-          <li>
-            <a class="text-decoration-none" href="#">
-              <i class="fa-solid fa-signal"></i>
-              <span class="ps-2">Signal</span>
-            </a>
-          </li>
-        </ul>
+    <section class="sidebar py-4 ps-2 pe-3 h-100">
+      <div class="d-flex flex-column flex-shrink-0 h-100 justify-content-between">
+        <div class="top-sidebar">
+          <ul class="nav nav-pills flex-column mb-auto list-group">
+            <li class="nav list-group-item-action list-group-item-secondary">
+              <a href="#" class="nav-link text-white" aria-current="page">
+                <i class="fa-solid fa-house bi pe-none me-2"></i>
+                <span class="d-none d-md-inline">Home</span>
+              </a>
+            </li>
+            <li class="nav list-group-item-action list-group-item-secondary">
+              <a href="#" class="nav-link text-white">
+                <i class="fa-solid fa-chart-simple bi pe-none me-3"></i>
+                <span class="d-none d-md-inline">Stats</span>
+              </a>
+            </li>
+            <li class="nav list-group-item-action list-group-item-secondary">
+              <a href="#" class="nav-link text-white">
+                <i class="fa-solid fa-signal bi pe-none me-2"></i>
+                <span class="d-none d-md-inline">Signals</span>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-      </div>
-      <div class="bottom-sidebar w-100">
-
+        <div class="bottom-sidebar">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none ms-3" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-gear me-3" width="32" height="32"></i>
+            <span class="d-none d-md-inline">Admin</span>
+          </a>
+        </div>
       </div>
 
     </section>
@@ -107,7 +112,7 @@
               <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                 <i class="fa-solid fa-plus"></i>
               </button>
-              
+              <!-- offcanvas -->
               <div class="offcanvas offcanvas-end w-100" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo studente</h5>
@@ -196,6 +201,7 @@
                   </div>
                 </div>
               </div>
+              <!-- end offcanvas -->
             </div>
             <!-- end nuovo studente -->
 
@@ -203,22 +209,22 @@
             <div class="col col-md-4 col-lg-5 boolean py-3">
               <div>
                 <span class="fs-3">Boolean</span>
-                <a href="#">
+                <a class="text-decoration-none" href="#">
                   <span class="badge rounded-pill fs_cst_6 badge_bg_cst">Piano blaze</span>
                 </a>
               </div>
               <div>
-                <a href="#">
+                <a class="text-decoration-none" href="#">
                   <span class="badge rounded-pill fs_cst_6 badge_bg_cst">3 app</span>
                 </a>
                 <i class="fa-solid fa-angles-right fs_cst_6"></i>
-                <a href="#">
+                <a class="text-decoration-none" href="#">
                   <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-none d-lg-inline-block">Boolean mobile app</span>
                 </a>
-                <a href="#">
+                <a class="text-decoration-none" href="#">
                   <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-none d-lg-inline-block">Boolean web app</span>
                 </a>
-                <a href="#">
+                <a class="text-decoration-none" href="#">
                   <span class="badge rounded-pill fs_cst_6 badge_bg_cst d-none d-lg-inline-block">Boolean blog app</span>
                 </a>
                 <a href="#">
