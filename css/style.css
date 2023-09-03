@@ -5,12 +5,10 @@
   --bg_light-blue: #1b72e8;
 }
 
-/* DEBUG */
 header {
   height: 70px;
   background-color: var(--bg_light-grey);
 }
-
 
 main {
   padding-top: 70px;

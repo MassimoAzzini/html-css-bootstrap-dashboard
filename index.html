@@ -42,11 +42,11 @@
             <li class="nav-item d-none d-lg-block">
               <a class="nav-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
             </li>
-            <li class="nav-item dropdown d-block">
+            <li class="nav-item dropdown d-inline-block">
               <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-bell"></i>
               </a>
-              <ul class="dropdown-menu dropdown-menu-end">
+              <ul class="dropdown-menu dropdown-menu-end position-absolute">
                 <li><a class="dropdown-item" href="#">Profilo</a></li>
                 <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                 <li><a class="dropdown-item" href="#">Logout</a></li>
@@ -85,12 +85,16 @@
             </li>
           </ul>
         </div>
-
+        
         <div class="bottom-sidebar">
-          <a href="#" class="d-flex align-items-center text-white text-decoration-none ms-3" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-gear me-3" width="32" height="32"></i>
-            <span class="d-none d-md-inline">Admin</span>
-          </a>
+          <ul class="nav nav-pills flex-column mb-auto list-group">
+            <li class="nav list-group-item-action list-group-item-secondary">
+              <a href="#" class="nav-link text-white">
+                <i class="fa-solid fa-gear bi pe-none me-3"></i>
+                <span class="d-none d-md-inline">Admin</span>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -107,7 +111,7 @@
           <div class="row flex-column flex-md-row justify-content-between">
 
             <!-- nuovo studente -->
-            <div class="col col-md-4 col-lg-3 nuovo-studente order-md-3 py-3">
+            <div class="col col-md-4 col-lg-3 nuovo-studente order-md-3 py-3 text-md-end">
               <span class="fs_cst_9">Nuovo Studente</span>
               <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                 <i class="fa-solid fa-plus"></i>
